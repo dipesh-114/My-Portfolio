@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Add Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Add Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Add GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</head>
+
+<body>
+  <header class="hero-section">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Dipesh Darji</span></h1>
+      <p>Front-End Developer | JavaScript Enthusiast</p>
+      <div class="hero-buttons">
+        <button onclick="scrollToSection('projects')">View My Work</button>
+        <button onclick="scrollToSection('contact')">Contact Me</button>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-photo">
+        <img src="assets/images/profile.jpg" alt="Your Photo">
+      </div>
+      <div class="about-text">
+        <p>I’m a passionate Front-End Developer with experience in HTML, CSS, and JavaScript. Currently pursuing a
+          Master's in IT at Pillai College, I have a knack for building creative and functional web applications.</p>
+      </div>
+    </div>
+    <div class="timeline">
+      <h3>My Journey</h3>
+      <div class="timeline-item">
+        <h4>2021-2024</h4>
+        <p>Completed my Bachelor from Yashwantrao Chavan College, affiliated from Mumbai University.</p>
+      </div>
+      <!-- <div class="timeline-item">
+        <h4>2024</h4>
+        <p>Started Master's in IT at Pillai College.</p>
+      </div> -->
+      <div class="timeline-item">
+        <h4>2024-2026</h4>
+        <p>Started my Journey for pursuing Master degree in Information Technology from PIllai College, Mumbai University.</p> 
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/images/tic-tac-toe.jpg" alt="Tic Tac Toe">
+        <h3>Tic-Tac-Toe Game</h3>
+        <p>A fun game built using HTML, CSS, and JavaScript.</p>
+        <a href="https://dipesh-114.github.io/Tic-Tac-Toe/" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="assets/images/study-hub.png" alt="Tic Tac Toe">
+        <h3>StudyHub</h3>
+        <p>An online resource platform for students, offering free notes for IT and CS.</p>
+        <a href="https://dipesh-114.github.io/StudyHub/" target="_blank">View Project</a>
+      </div>
+      <!-- <div class="project-card">
+        <img src="assets/images/study-hub.png" alt="Tic Tac Toe">
+        <h3>My Portfolio</h3>
+        <p>An online resource platform for students, offering free notes for IT and CS.</p>
+        <a href="https://dipesh-114.github.io/StudyHub/" target="_blank">View Project</a>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <canvas id="skillsChart"></canvas>
+      </section> -->
+
+  <section id="skills" class="skills-section">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-item">
+        <h3>HTML</h3>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 90%;">90%</div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <h3>CSS</h3>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 85%;">85%</div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <h3>JavaScript</h3>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 80%;">80%</div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <h3>Git</h3>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 75%;">75%</div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <h3>Cloud Computing</h3>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 70%;">70%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/{your-form-id}" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

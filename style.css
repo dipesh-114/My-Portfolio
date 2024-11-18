@@ -1,0 +1,162 @@
+.hero-section {
+    background: linear-gradient(to bottom right, #1e90ff, #ff6347);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    animation: fadeIn 2s;
+  }
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .hero-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: #1e90ff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .hero-buttons button:hover {
+    background: #ff6347;
+    color: white;
+  }
+
+  .about-section {
+    padding: 50px 20px;
+    background: #f5f5f5;
+  }
+  .about-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .about-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .about-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .timeline {
+    padding-left: 20px;
+    border-left: 2px solid #1e90ff;
+  }
+  .timeline-item {
+    margin-bottom: 20px;
+  }
+  .timeline-item h4 {
+    color: #1e90ff;
+    font-weight: bold;
+  }
+  
+
+  .projects-section {
+    padding: 50px 20px;
+  }
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .project-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(33% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+  .project-card h3 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 15px;
+  }
+  .project-card p {
+    display: flex;
+    justify-content: center;
+    margin: 0 15px 15px;
+  }
+  .project-card a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .contact-section {
+    padding: 50px 20px;
+    background: #1e90ff;
+    color: white;
+  }
+  .contact-section form {
+    max-width: 600px;
+    margin: auto;
+  }
+  .contact-section input, .contact-section textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .contact-section button {
+    background: white;
+    color: #1e90ff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  .skills-section {
+    padding: 50px 20px;
+    background: #f5f5f5;
+    text-align: center;
+  }
+  
+  .skills-container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .skill-item {
+    margin-bottom: 20px;
+  }
+  
+  .skill-bar {
+    background: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 30px;
+  }
+  
+  .skill-progress {
+    background: #1e90ff;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    line-height: 30px;
+    height: 30px;
+    border-radius: 25px 0 0 25px;
+  }
+  
+  
